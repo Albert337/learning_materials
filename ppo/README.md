@@ -5,15 +5,16 @@
 目录结构：
 
 .
-├── code
-│   ├── optimize
-│   │   ├── ppo_agent.py
-│   │   ├── ppo_pendulum_best.pth
-│   │   ├── ppo_training.py
-│   │   └── 截屏2025-08-18 11.02.22.png
-│   ├── ppo_agent.py
-│   ├── ppo_training.py
-│   ├── requirements.txt
-│   └── reward_loss.jpg
-└── ppo.pdf
-
+├── learning_materials/
+│   └── ppo/
+│       ├── code/
+│       │   ├── optimize/
+│       │   │   ├── ppo_agent.py
+│       │   │   ├── ppo_pendulum_best.pth
+│       │   │   ├── ppo_training.py
+│       │   │   └── 截屏2025-08-18 11.02.22.png
+│       │   ├── ppo_agent.py
+│       │   ├── ppo_training.py
+│       │   ├── requirements.txt
+│       │   └── reward_loss.jpg
+│       └── ppo.pdf
