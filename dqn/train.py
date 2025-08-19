@@ -52,8 +52,9 @@ for episode_i in range(n_episodes):
         if np.mean(REWARD_BUFFER[:episode_i])>=100:
             while True:
                 a=agent.online_net.act(s)
-                s_, r, v, done, info = env.step(a)
+                s_, r, terminated, truncated,info = env.step(a)
                 env.render()
+                done = terminated or truncated
                 if done:
                     env.reset()
 
